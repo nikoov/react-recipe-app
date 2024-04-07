@@ -14,7 +14,7 @@
 body {
 	padding: 0;
 	margin: 0;
-	background: rgba(88, 41, 199, 0.1) !important;
+	background: cream; /* Change background color */
 	font-family: Montserrat;
 	font-size: 16px;
 	line-height: 25px;
@@ -23,32 +23,33 @@ body {
 
 /* Site Header Style */
 .site-header {
-	background: #5829c7;
+	background: gold; /* Change background color */
 	padding: 30px 0;
-	color: #fff;
+	color: white; /* Change text color */
 }
 
 .site-header--logo {
 	font-weight: 400;
 	margin: 0;
+	color: white; /* Change text color */
 }
 
 .site-header--menu a {
 	display: inline-block;
 	margin: 0 20px;
-	color: inherit;
+	color: white; /* Change text color */
 	text-decoration: none;
 }
 
 /* Site Footer Style */
 .site-footer {
-	background: #5829c7;
+	background: gold; /* Change background color */
 	padding: 15px 0;
 }
 
 .site-footer p {
 	margin: 0;
-	color: #fff;
+	color: white; /* Change text color */
 }
 
 /* Recipe form style */
@@ -58,15 +59,16 @@ body {
 
 .recipe-form--input {
 	border: none;
-	border-bottom: 2px solid rgba(88, 41, 199, 0.7);
+	border-bottom: 2px solid gold; /* Change border color */
 	margin-right: 15px;
 	outline: none;
 	background-color: transparent;
+	color: white; /* Change text color */
 }
 
 .recipe-form--submit {
-	background: rgba(88, 41, 199, 0.7);
-	color: #fff;
+	background: gold; /* Change background color */
+	color: white; /* Change text color */
 	cursor: pointer;
 	outline: none;
 	padding: 9px 10px;
@@ -85,7 +87,7 @@ body {
 }
 
 .recipe-list--wrap {
-	background: #fff;
+	background: white; /* Change background color */
 	border-radius: 3px;
 	overflow: hidden;
 	margin-bottom: 20px;
